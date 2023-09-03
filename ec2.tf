@@ -30,6 +30,6 @@ resource "aws_security_group" "allow_ssm" {
 }
 
 resource "aws_key_pair" "example" {
-  key_name   = "example-key" # Replace with your own key pair name
+  key_name   = "example-key" # Replace with your own key pair your name
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAuw98gxryR/KaqukOusTibvgJ0naK9aSvs2hgkoUMtblED1dN8oFdDI3sRZOvsX0WaB/sU8DqJk3hhfTHKNHXwev9zmJeMpqYc1XqEvhzBsaHgQGU5A9LjnvS/7miJQTUhAXKFt09olEDlcPj13TbW6gxGlt6ZUbhJxMHpJfwhXjMeGd8WM8aO8T+qIQNq38OY8eC/8GzoCbGBb4XVp1Lj1D2hnRqOnIoPAnWIBkQfLm/SpJPxN0nG1YSVGs7jUuWoI3CQoaTURLLwxMXM9PTeB8NACYsG8gKK+HJGZLb9l3CqXXjz9ZSSvo36qcjirg2cAnqB3miT+GZpKQlL/w9" # Replace with your public key here
 }
